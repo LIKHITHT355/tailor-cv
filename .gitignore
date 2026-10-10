@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Builds and generated outputs
+dist/
+build/
+.output/
+.wrangler/
+uploads/
+*.log
+
+# Large backups and archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
